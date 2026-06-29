@@ -1,0 +1,18 @@
+{
+  "name": "genpark-product-spec-extractor-skill",
+  "description": "GenPark product spec extractor skill. Scans raw e-commerce descriptions or HTML strings, extracts key-value feature specifications, cleans formatting, and outputs indexed JSON data.",
+  "version": "1.0.0",
+  "author": "alphaparkinc",
+  "inputs": {
+    "raw_html_or_text": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "extracted_specifications": {
+      "type": "object",
+      "description": "Cleaned key-value specification attributes map."
+    }
+  },
+  "prompt": "You are a GenPark spec extractor agent. Scan the raw html page contents, filter noise tags, extract specifications (like dimensions, color, weight, material) and output structured JSON keys."
+}
