@@ -1,4 +1,4 @@
-# GenPark Product Spec Extractor Skill
+# genpark-product-spec-extractor-skill
 
 This repository contains the **GenPark Product Spec Extractor Skill** — an agent configuration skill config (`skill.json`), a production-ready Python SDK client (`spec_extractor.py`), and executable verification tests. It is designed to scan messy HTML segments or unstructured text descriptions to parse, isolate, and return key technical specifications.
 
